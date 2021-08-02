@@ -1,0 +1,146 @@
+{
+	"total": 20,
+	"resultSetId": 4578,
+	"value":[
+		{
+			"name": "HAL limited",
+			"isSmallCap": "Y",
+			"currentValue": 10
+		},
+		{
+			"name": "Green Corp limited",
+			"isSmallCap": "Y",
+			"currentValue": 50
+		},
+		{
+			"name": "TCS limited",
+			"isSmallCap": "N",
+			"currentValue": 3000
+		},
+		{
+			"name": "Infosys limited",
+			"isSmallCap": "N",
+			"currentValue": 1200
+		},
+		{
+			"name": "Mahindra limited",
+			"isSmallCap": "N",
+			"currentValue": 2000
+		},
+		{
+			"name": "Tata limited",
+			"isSmallCap": "N",
+			"currentValue": 4000
+		},
+		{
+			"name": "ABC chemicals",
+			"isSmallCap": "Y",
+			"currentValue": 90
+		},
+		{
+			"name": "Wipro",
+			"isSmallCap": "N",
+			"currentValue": 1000
+		},
+		{
+			"name": "Mpasis",
+			"isSmallCap": "Y",
+			"currentValue": 50
+		},
+		{
+			"name": "3i info",
+			"isSmallCap": "N",
+			"currentValue": 3000
+		},
+		{
+			"name": "Hexagon global",
+			"isSmallCap": "N",
+			"currentValue": 1200
+		},
+		{
+			"name": "Tech Mahi.",
+			"isSmallCap": "N",
+			"currentValue": 6000
+		},
+		{
+			"name": "Experience Commerce",
+			"isSmallCap": "N",
+			"currentValue": 7000
+		},
+		{
+			"name": "t7e",
+			"isSmallCap": "Y",
+			"currentValue": 90
+		},
+		{
+			"name": "Edulrn",
+			"isSmallCap": "Y",
+			"currentValue": 40
+		},
+		{
+			"name": "kotak",
+			"isSmallCap": "Y",
+			"currentValue": 50
+		},
+		{
+			"name": "Axis",
+			"isSmallCap": "N",
+			"currentValue": 3500
+		},
+		{
+			"name": "Edusprint",
+			"isSmallCap": "N",
+			"currentValue": 1100
+		},
+		{
+			"name": "RBK",
+			"isSmallCap": "N",
+			"currentValue": 600
+		},
+		{
+			"name": "MICM",
+			"isSmallCap": "N",
+			"currentValue": 4500
+		},
+		{
+			"name": "xyz chemicals",
+			"isSmallCap": "Y",
+			"currentValue": 90
+		},
+		{
+			"name": "Cadila limited",
+			"isSmallCap": "N",
+			"currentValue": 2300
+		},
+		{
+			"name": "Atul limited",
+			"isSmallCap": "Y",
+			"currentValue": 50
+		},
+		{
+			"name": "Pharma limited",
+			"isSmallCap": "Y",
+			"currentValue": 30
+		},
+		{
+			"name": "Rotech limited",
+			"isSmallCap": "N",
+			"currentValue": 900
+		},
+		{
+			"name": "Infotech limited",
+			"isSmallCap": "N",
+			"currentValue": 1500
+		},
+		{
+			"name": "SBI limited",
+			"isSmallCap": "N",
+			"currentValue": 6000
+		},
+		{
+			"name": "Roshan chemicals",
+			"isSmallCap": "Y",
+			"currentValue": 80
+		}
+	]
+}
