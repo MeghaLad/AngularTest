@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./capdetail.component.css']
 })
 export class CapdetailComponent implements OnInit {
-  @Input('capDetail')item:any;
+  @Input('capDetail')item:any;  // Declare Input parameter, fatch input value and assign in to item variable
   constructor() { }
 
   ngOnInit(): void {

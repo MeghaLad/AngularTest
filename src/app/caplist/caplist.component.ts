@@ -17,17 +17,20 @@ export class CaplistComponent implements OnInit {
   ngOnInit(): void {
     setInterval(()=>{
      this.getList();   
-    },1000)
+    },60000) // one minute time interval
   }
 
   getList(){  
      this.apiService.getList().subscribe((data:any)=>{
         this.totalCap = data;
-        this.smallCap = data.value.filter((item:any)=> item['isSmallCap'] === 'Y')
-                                  .sort((a:any,b:any) => a.currentValue - b.currentValue).slice(0,10);
+        // filter data with small and Large 
+        // Select top 10 data
+        // Sort data by Current Value
+        this.smallCap = data.value.filter((item:any)=> item['isSmallCap'] === 'Y').slice(0,10)
+                                  .sort((a:any,b:any) => a.currentValue - b.currentValue);
 
-        this.largeCap = data.value.filter((item:any)=> item['isSmallCap'] === 'N')
-                                  .sort((a:any,b:any) => a.currentValue - b.currentValue).slice(0,10);
+        this.largeCap = data.value.filter((item:any)=> item['isSmallCap'] === 'N').slice(0,10)
+                                  .sort((a:any,b:any) => a.currentValue - b.currentValue);
     });
   }
 
